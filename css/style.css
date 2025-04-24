@@ -149,7 +149,9 @@ hr {
 .custom-navbar {
   background-color: #392759;
   padding: 10px 20px;
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 1020; /* Make sure it's above other elements */
 }
 
 /* Navigation link styles */
