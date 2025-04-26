@@ -162,6 +162,10 @@ hr {
   text-decoration: none;
 }
 
+a.nav-link {
+  padding-left: 0%;
+}
+
 .nav-link:hover {
   text-decoration: underline;
 }
